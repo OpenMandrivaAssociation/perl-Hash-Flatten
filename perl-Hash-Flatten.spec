@@ -22,7 +22,7 @@ delimited key-value pairs. Useful for protocols that only support key-value
 pairs (such as CGI and DBMs).
 
 Functional interface
-    * $flat_hash = flatten($nested_hash, \%options)
+    * $flat_hash = flatten($nested_hash, \% options)
 
       Reduces a nested data-structure to key-value form. The top-level
       container must be hashref. For example:
